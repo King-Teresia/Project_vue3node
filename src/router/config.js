@@ -1,3 +1,4 @@
+// 这个config.js是为了配合 动态创建路由 (把这些子路由创建在mainbox下 在index.js里用到的)
 import Home from '@/views/home/Home.vue'
 import Center from '@/views/center/Center.vue'
 import NewsAdd from '../views/news-manager/NewsAdd.vue'
