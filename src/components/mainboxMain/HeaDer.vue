@@ -9,6 +9,7 @@
 
         <div class="right">
             <span>欢迎回来 {{ store.state.userInfo.username }}</span>
+            <!--这里上面这句,可以直接用$store ; 笔记里也记了  -->
             <el-dropdown>
                 <span class>
                     <el-icon :size="30" color="white">

@@ -75,7 +75,7 @@ const getData = async () => {
     await axios.get("/adminapi/product/productlist").then(res =>
         productLoop.value = res.data.iWantData
     )
-    console.log(productLoop.value);
+    // console.log(productLoop.value);
 
 }
 

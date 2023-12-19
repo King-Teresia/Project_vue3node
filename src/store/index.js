@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-import createPersistedState from "vuex-persistedstate";
+import createPersistedState from "vuex-persistedstate";//vuex个性化数据的持久化
 export default createStore({
   state: {
     isGetRouter: false,

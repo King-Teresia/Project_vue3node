@@ -79,7 +79,7 @@ const getTablesData = async () => {
         dataBackOfNewsList = res.data.iWantData
     )
     if (store.state.userInfo.role !== 1) {
-        let newArr = dataBackOfNewsList.filter(newObj => newObj.username == store.state.userInfo.username)
+        let newArr = dataBackOfNewsList.filter(newObj => newObj.username == store.state.userInfo.username)//判断一下 这些数据的.username属性 是否和当前的 store里的username属性相同 只吧相同的 过滤出来
         tableData.value = newArr
     } else {
         tableData.value = dataBackOfNewsList
